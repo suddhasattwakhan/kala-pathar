@@ -1,0 +1,1 @@
+export { BarsSearchBars } from "./BarsSearchBars";

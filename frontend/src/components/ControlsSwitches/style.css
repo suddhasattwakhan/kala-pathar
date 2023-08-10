@@ -1,0 +1,38 @@
+.controls-switches {
+  border-radius: 32px;
+  box-shadow: var(--inner-shadow-soft);
+  height: 32px;
+  width: 56px;
+}
+
+.controls-switches .knob {
+  background-color: var(--surface-01);
+  border: 4px solid;
+  border-color: var(--textsubtitle);
+  border-radius: 50px;
+  box-shadow: var(--inner-shadow-sharp);
+  height: 28px;
+  position: relative;
+  top: 2px;
+  width: 28px;
+}
+
+.controls-switches.disabled {
+  opacity: 0.5;
+}
+
+.controls-switches.selected-true {
+  background-color: var(--primarybrand);
+}
+
+.controls-switches.selected-false {
+  background-color: var(--primarybackground);
+}
+
+.controls-switches.selected-true .knob {
+  left: 26px;
+}
+
+.controls-switches.selected-false .knob {
+  left: 2px;
+}
