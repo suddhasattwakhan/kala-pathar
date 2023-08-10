@@ -1,0 +1,8 @@
+.div-wrapper {
+  background-color: var(--surface-01);
+  border: 4px solid;
+  border-color: var(--textsubtitle);
+  border-radius: 32px;
+  height: 24px;
+  width: 24px;
+}

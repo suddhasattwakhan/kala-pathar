@@ -1,0 +1,547 @@
+.popover {
+  background-color: var(--surface-01);
+  border: 4px solid;
+  border-color: var(--textsubtitle);
+  border-radius: 16px;
+  box-shadow: var(--inner-shadow-soft);
+  overflow: hidden;
+  position: relative;
+  width: 335px;
+}
+
+.popover .overlap {
+  position: absolute;
+}
+
+.popover .rectangle {
+  height: 90px;
+  position: absolute;
+  top: 0;
+  width: 85px;
+}
+
+.popover .text-4 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 8px;
+  position: absolute;
+}
+
+.popover .remove-item {
+  color: var(--textsubtitle);
+  font-family: var(--title-4-font-family);
+  font-size: var(--title-4-font-size);
+  font-style: var(--title-4-font-style);
+  font-weight: var(--title-4-font-weight);
+  letter-spacing: var(--title-4-letter-spacing);
+  line-height: var(--title-4-line-height);
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+}
+
+.popover .are-you-sure-want-to {
+  position: relative;
+  text-align: center;
+  width: 279px;
+}
+
+.popover .img {
+  position: absolute;
+  top: 0;
+}
+
+.popover .ellipse {
+  background-color: var(--accent-03);
+  border: 4px solid;
+  border-color: var(--textsubtitle);
+  border-radius: 42.5px;
+  height: 85px;
+  left: 270px;
+  position: absolute;
+  top: 95px;
+  transform: rotate(180deg);
+  width: 85px;
+}
+
+.popover .vector {
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.popover .views-images-ratio {
+  background-color: #ecfce5;
+  border-radius: 16px;
+  position: absolute;
+}
+
+.popover .text-5 {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 8px;
+  left: 24px;
+  position: absolute;
+}
+
+.popover .remove-item-2 {
+  color: var(--textsubtitle);
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+}
+
+.popover .are-you-sure-want-to-2 {
+  color: var(--inklighter);
+  position: relative;
+  text-align: center;
+  width: 279px;
+}
+
+.popover .actions {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  left: 24px;
+  position: absolute;
+  width: 279px;
+}
+
+.popover .button-standard-instance {
+  align-self: stretch !important;
+  display: flex !important;
+  width: 100% !important;
+}
+
+.popover .class {
+  display: flex !important;
+  left: 24px !important;
+  position: absolute !important;
+  top: 152px !important;
+  width: 279px !important;
+}
+
+.popover .class-2 {
+  display: flex !important;
+  left: 24px !important;
+  position: absolute !important;
+  top: 296px !important;
+  width: 279px !important;
+}
+
+.popover .controls-text-fields {
+  border-radius: 8px;
+  height: 48px;
+  left: 24px;
+  position: absolute;
+  width: 279px;
+}
+
+.popover .overlap-group {
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #ecfce5;
+  border-radius: 8px;
+  height: 50px;
+  left: -1px;
+  position: relative;
+  top: -1px;
+  width: 281px;
+}
+
+.popover .text-6 {
+  color: var(--inklighter);
+  font-family: var(--regular-none-regular-font-family);
+  font-size: var(--regular-none-regular-font-size);
+  font-style: var(--regular-none-regular-font-style);
+  font-weight: var(--regular-none-regular-font-weight);
+  left: 16px;
+  letter-spacing: var(--regular-none-regular-letter-spacing);
+  line-height: var(--regular-none-regular-line-height);
+  position: absolute;
+  top: 16px;
+  white-space: nowrap;
+  width: 247px;
+}
+
+.popover .actions-2 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  left: 24px;
+  position: absolute;
+  width: 279px;
+}
+
+.popover .views-images-ratio-2 {
+  background-color: #ecfce5;
+  border-radius: 16px;
+  height: 64px;
+  left: 132px;
+  position: absolute;
+  top: 32px;
+  width: 64px;
+}
+
+.popover.no-action {
+  height: 274px;
+}
+
+.popover.dual-button.image-false {
+  height: 292px;
+}
+
+.popover.text-input.image-true {
+  height: 476px;
+}
+
+.popover.text-input.image-false {
+  height: 396px;
+}
+
+.popover.image-true.single-button {
+  height: 376px;
+}
+
+.popover.image-false.single-button {
+  height: 240px;
+}
+
+.popover.image-true.dual-button {
+  height: 428px;
+}
+
+.popover.single-button .overlap {
+  height: 128px;
+  left: 0;
+  width: 313px;
+}
+
+.popover.text-input .overlap {
+  top: 0;
+}
+
+.popover.image-false .overlap {
+  top: 0;
+}
+
+.popover.dual-button .overlap {
+  height: 120px;
+  left: 0;
+  width: 303px;
+}
+
+.popover.no-action .overlap {
+  height: 180px;
+  left: 14px;
+  width: 355px;
+}
+
+.popover.text-input.image-true .overlap {
+  height: 90px;
+  left: 241px;
+  width: 86px;
+}
+
+.popover.text-input.image-false .overlap {
+  height: 152px;
+  left: 24px;
+  width: 303px;
+}
+
+.popover.image-true.no-action .overlap {
+  top: 128px;
+}
+
+.popover.image-true .rectangle {
+  left: 1px;
+}
+
+.popover.image-false .rectangle {
+  left: 218px;
+}
+
+.popover.single-button .text-4 {
+  left: 14px;
+}
+
+.popover.text-input .text-4 {
+  left: 0;
+}
+
+.popover.image-false .text-4 {
+  top: 32px;
+}
+
+.popover.dual-button .text-4 {
+  left: 24px;
+}
+
+.popover.image-true.no-action .text-4 {
+  left: 0;
+  top: 0;
+}
+
+.popover.single-button .remove-item {
+  width: 299px;
+}
+
+.popover.text-input .remove-item {
+  align-self: stretch;
+}
+
+.popover.dual-button .remove-item {
+  width: 279px;
+}
+
+.popover.text-input.image-true .remove-item {
+  width: 299px;
+}
+
+.popover.image-true.no-action .remove-item {
+  width: 299px;
+}
+
+.popover.single-button .are-you-sure-want-to {
+  font-family: var(--regular-normal-regular-font-family);
+  font-size: var(--regular-normal-regular-font-size);
+  font-style: var(--regular-normal-regular-font-style);
+  font-weight: var(--regular-normal-regular-font-weight);
+  letter-spacing: var(--regular-normal-regular-letter-spacing);
+  line-height: var(--regular-normal-regular-line-height);
+}
+
+.popover.text-input .are-you-sure-want-to {
+  font-family: "Poppins", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.popover.dual-button .are-you-sure-want-to {
+  color: var(--textnormal);
+  font-family: "Poppins", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.popover.no-action .are-you-sure-want-to {
+  font-family: "Poppins", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.popover.image-true .are-you-sure-want-to {
+  color: var(--textnormal);
+}
+
+.popover.text-input.image-false .are-you-sure-want-to {
+  color: var(--inklighter);
+}
+
+.popover.image-false.single-button .are-you-sure-want-to {
+  color: var(--inklighter);
+}
+
+.popover.single-button .img {
+  height: 56px;
+  left: 0;
+  width: 53px;
+}
+
+.popover.text-input .img {
+  height: 82px;
+  width: 86px;
+}
+
+.popover.dual-button .img {
+  height: 57px;
+  left: 0;
+  width: 51px;
+}
+
+.popover.no-action .img {
+  height: 82px;
+  left: 0;
+  width: 86px;
+}
+
+.popover.image-true .img {
+  left: 0;
+}
+
+.popover.text-input.image-false .img {
+  left: 217px;
+}
+
+.popover.single-button .vector {
+  height: 53px;
+  width: 53px;
+}
+
+.popover.text-input .vector {
+  height: 61px;
+  width: 53px;
+}
+
+.popover.dual-button .vector {
+  height: 61px;
+  width: 53px;
+}
+
+.popover.no-action .vector {
+  height: 60px;
+  width: 54px;
+}
+
+.popover.single-button .views-images-ratio {
+  height: 120px;
+  left: 104px;
+  top: 32px;
+  width: 120px;
+}
+
+.popover.text-input .views-images-ratio {
+  height: 120px;
+  left: 104px;
+  top: 34px;
+  width: 120px;
+}
+
+.popover.dual-button .views-images-ratio {
+  height: 120px;
+  left: 104px;
+  top: 34px;
+  width: 120px;
+}
+
+.popover.no-action .views-images-ratio {
+  height: 64px;
+  left: 132px;
+  top: 40px;
+  width: 64px;
+}
+
+.popover.single-button .text-5 {
+  align-items: flex-start;
+  top: 176px;
+}
+
+.popover.text-input .text-5 {
+  align-items: flex-start;
+  top: 120px;
+}
+
+.popover.dual-button .text-5 {
+  align-items: center;
+  top: 178px;
+}
+
+.popover.no-action .text-5 {
+  align-items: flex-start;
+  top: 178px;
+}
+
+.popover.single-button .remove-item-2 {
+  font-family: var(--title-3-font-family);
+  font-size: var(--title-3-font-size);
+  font-style: var(--title-3-font-style);
+  font-weight: var(--title-3-font-weight);
+  letter-spacing: var(--title-3-letter-spacing);
+  line-height: var(--title-3-line-height);
+  width: 279px;
+}
+
+.popover.text-input .remove-item-2 {
+  align-self: stretch;
+  font-family: var(--title-4-font-family);
+  font-size: var(--title-4-font-size);
+  font-style: var(--title-4-font-style);
+  font-weight: var(--title-4-font-weight);
+  letter-spacing: var(--title-4-letter-spacing);
+  line-height: var(--title-4-line-height);
+}
+
+.popover.dual-button .remove-item-2 {
+  font-family: var(--title-4-font-family);
+  font-size: var(--title-4-font-size);
+  font-style: var(--title-4-font-style);
+  font-weight: var(--title-4-font-weight);
+  letter-spacing: var(--title-4-letter-spacing);
+  line-height: var(--title-4-line-height);
+  width: 279px;
+}
+
+.popover.no-action .remove-item-2 {
+  font-family: var(--title-4-font-family);
+  font-size: var(--title-4-font-size);
+  font-style: var(--title-4-font-style);
+  font-weight: var(--title-4-font-weight);
+  letter-spacing: var(--title-4-letter-spacing);
+  line-height: var(--title-4-line-height);
+}
+
+.popover.single-button .are-you-sure-want-to-2 {
+  font-family: var(--regular-normal-regular-font-family);
+  font-size: var(--regular-normal-regular-font-size);
+  font-style: var(--regular-normal-regular-font-style);
+  font-weight: var(--regular-normal-regular-font-weight);
+  letter-spacing: var(--regular-normal-regular-letter-spacing);
+  line-height: var(--regular-normal-regular-line-height);
+}
+
+.popover.text-input .are-you-sure-want-to-2 {
+  font-family: "Poppins", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.popover.dual-button .are-you-sure-want-to-2 {
+  font-family: "Poppins", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.popover.no-action .are-you-sure-want-to-2 {
+  font-family: "Poppins", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.popover.image-true .actions {
+  top: 290px;
+}
+
+.popover.image-false .actions {
+  top: 144px;
+}
+
+.popover.image-true .controls-text-fields {
+  top: 264px;
+}
+
+.popover.image-false .controls-text-fields {
+  top: 176px;
+}
+
+.popover.image-true .actions-2 {
+  top: 336px;
+}
+
+.popover.image-false .actions-2 {
+  top: 248px;
+}

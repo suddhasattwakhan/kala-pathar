@@ -2,7 +2,10 @@ import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { useCookies } from "react-cookie";
 import axios from "axios";
+
 import { toast, ToastContainer } from "react-toastify";
+import Form from "./Form";
+
 
 export default function Cards() {
   const navigate = useNavigate();
@@ -37,8 +40,10 @@ export default function Cards() {
   };
   return (
     <>
-      <div className="private">
+      <div className="private" style={{overflow: 'auto'}}>
         <h1>Super Secret Page</h1>
+        <h1>Super Secret Page</h1>
+        <Form />
         <button onClick={logOut}>Log out</button>
       </div>
       <ToastContainer />
