@@ -1,12 +1,12 @@
 const User = require("../model/authModel");
 const jwt = require("jsonwebtoken");
-
+require('dotenv').config();
 module.exports.checkUser = (req, res, next) => {
   const token = req.cookies.jwt;
   if (token) {
     jwt.verify(
       token,
-      "kishan sheth super secret key",
+      process.env.JWT_SECRET,
       async (err, decodedToken) => {
         if (err) {
           res.json({ status: false });

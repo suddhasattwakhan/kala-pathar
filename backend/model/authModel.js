@@ -11,6 +11,10 @@ const userSchema = new mongoose.Schema({
     type: String,
     required: [true, "Password is Required"],
   },
+  // location: {
+  //   type: String,
+  //   required: [true, "Location is required"]
+  // }
 });
 
 userSchema.pre("save", async function (next) {
